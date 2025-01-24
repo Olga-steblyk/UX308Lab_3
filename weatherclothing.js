@@ -10,15 +10,15 @@ function weather2clothes(temperature,humidity){
         output ="it is cold and dry, please wear layers, preferably a parka";
     }else if (temperature >-4 && temperature <=5 && humidity <70){
         // Dry & neutral
-        output ="it is cold and not wet or dry";
+        output ="it is cold and not wet or dry, layers are recommended and hats as well";
     }else if (temperature >6 && temperature >=-5 && humidity <70){
         // Dry & Warm
-        output ="it is dry and warm, so it will be windy";
+        output ="it is dry and warm, so it will be windy, wear a windbreaker";
     }else if (temperature <=-5 && humidity >=71){
         //Wet & Cold
         output ="it is cold and wet, consider wearing a waterproof outer layer and boots";
     }else if (temperature <6 && temperature >=-5 && humidity >70){
-        output = "it is humid outside, chance of snow or rain,";
+        output = "it is humid outside, chance of snow or rain, so keep that in mind, wear a layer just in case";
         //Wet & neutral
     }else if (temperature >=6 && humidity >70 ){
         output = "the weather is warm and humid, there is a high chance of rain so bring umbrella";
